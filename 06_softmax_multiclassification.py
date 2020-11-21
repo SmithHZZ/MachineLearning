@@ -32,7 +32,7 @@ train_label_onehot = tf.keras.utils.to_categorical(train_label)
 
 # model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 # 使用优化器实例
-model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01))
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01), loss='categorical_crossentropy', metrics=['acc'])
 
 model.fit(train_image, train_label_onehot, epochs=10)
 

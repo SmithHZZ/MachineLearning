@@ -21,6 +21,7 @@ model.summary()
 
 model.compile(
     optimizer='adam',
+    # mse为均方差 方差的和除以项数 ((y1(i)-y2(i))^2)的和/n
     loss='mse'
 )
 

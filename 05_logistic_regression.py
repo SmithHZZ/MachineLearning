@@ -14,6 +14,9 @@ model = tf.keras.Sequential()
 model.add(tf.keras.layers.Dense(4, input_shape=(15,), activation='relu'))
 model.add(tf.keras.layers.Dense(4, activation='relu'))
 # 将数据映射到0-1之间
+
+# 逻辑函数 sigmoid f(x)=1/(1+e^(-x))
+# 适合用于求解分类问题
 model.add(tf.keras.layers.Dense(1, activation='sigmoid'))
 
 model.summary()

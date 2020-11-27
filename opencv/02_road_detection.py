@@ -34,7 +34,7 @@ for i in range(len(contours)):
                 mi = data[j][0][1]
                 jmi = j
 
-        cv2.line(img_src, (data[jma][0][0], data[jma][0][1]), (data[jmi][0][0], data[jmi][0][1]), (0, 0, 255), 10)
+        cv2.line(img_src, (data[jma][0][0], data[jma][0][1]), (data[jmi][0][0], data[jmi][0][1]), (0, 0, 255), 15)
 
         # cv2.drawContours(img_src, contours, i, (0, 0, 255), -1)
 

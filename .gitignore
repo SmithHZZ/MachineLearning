@@ -1,0 +1,13 @@
+[pkl]
+
+pytorch\mnist//
+/pytorch/mnist/MNIST/processed/test.pt
+/pytorch/mnist/MNIST/processed/training.pt
+/pytorch/mnist/MNIST/raw/t10k-images-idx3-ubyte
+/pytorch/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+/pytorch/mnist/MNIST/raw/t10k-labels-idx1-ubyte
+/pytorch/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+/pytorch/mnist/MNIST/raw/train-images-idx3-ubyte
+/pytorch/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+/pytorch/mnist/MNIST/raw/train-labels-idx1-ubyte
+/pytorch/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
